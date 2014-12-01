@@ -1,13 +1,13 @@
 {
   "name": "netstring-stream",
   "description": "Netstring reader/writer and streams.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Trevor Livingston <tlivings@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/tlivings/netstring.git"
+    "url": "git://github.com/tlivings/netstring-stream.git"
   },
-  "bugs": "http://github.com/tlivings/netstring/issues",
+  "bugs": "http://github.com/tlivings/netstring-stream/issues",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },

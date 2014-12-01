@@ -1,6 +1,6 @@
 {
   "name": "netstring-stream",
-  "description": "",
+  "description": "Netstring reader/writer and streams.",
   "version": "0.1.0",
   "author": "Trevor Livingston <tlivings@gmail.com>",
   "repository": {

@@ -24,3 +24,9 @@ writer.write('goodbye!');
 
 writer.end();
 ```
+
+### Debuglog
+
+```
+export NODE_DEBUG=nstring
+```

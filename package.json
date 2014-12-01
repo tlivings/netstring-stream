@@ -1,0 +1,32 @@
+{
+  "name": "netstring-stream",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Trevor Livingston <tlivings@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlivings/netstring.git"
+  },
+  "bugs": "http://github.com/tlivings/netstring/issues",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "engines": {
+    "node": "~0.10.22"
+  },
+  "dependencies": {
+    "debuglog": "^1.0.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "tape": "~2.4.2",
+    "istanbul": "~0.2.3",
+    "jshint": "~2.4.1"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "cover": "istanbul cover tape -- test/*.js",
+    "lint": "jshint -c .jshintrc index.js lib/"
+  },
+  "main": "./lib/netstring"
+}

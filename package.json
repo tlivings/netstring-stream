@@ -1,7 +1,7 @@
 {
   "name": "netstring-stream",
   "description": "Netstring reader/writer and streams.",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Trevor Livingston <tlivings@gmail.com>",
   "repository": {
     "type": "git",
@@ -18,14 +18,14 @@
     "through2": "^2.0.3"
   },
   "devDependencies": {
+    "eslint": "^3.18.0",
     "istanbul": "^0.4.5",
-    "jshint": "^2.9.4",
     "tape": "^4.6.3"
   },
   "scripts": {
     "test": "tape test/*.js",
     "cover": "istanbul cover tape -- test/*.js",
-    "lint": "jshint -c .jshintrc index.js lib/"
+    "lint": "eslint lib"
   },
   "main": "./lib/netstring"
 }

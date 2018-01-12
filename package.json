@@ -12,7 +12,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "engines": {
-    "node": ">=4.0.0 < 7.0.0"
+    "node": ">=4.0.0"
   },
   "dependencies": {
     "through2": "^2.0.3"

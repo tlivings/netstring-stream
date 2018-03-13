@@ -1,8 +1,9 @@
 {
   "name": "netstring-stream",
   "description": "Netstring reader/writer and streams.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Trevor Livingston <tlivings@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/tlivings/netstring-stream.git"
